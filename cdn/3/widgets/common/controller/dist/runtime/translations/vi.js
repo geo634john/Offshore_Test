@@ -1,1 +1,0 @@
-define({_widgetLabel:"Trình điều khiển Tiện ích"});

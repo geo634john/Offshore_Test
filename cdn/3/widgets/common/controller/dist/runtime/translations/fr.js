@@ -1,1 +1,0 @@
-define({_widgetLabel:"Contrôleur de widget"});
