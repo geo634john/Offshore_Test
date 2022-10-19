@@ -237,10 +237,10 @@
           "bbox": {
             "left": "10.00%",
             "right": "49.5%",
-            "top": "10.00px",
+            "top": "1.00%",
             "bottom": "88.1%",
-            "width": "100.00px",
-            "height": "110.00px"
+            "width": "80.00%",
+            "height": "7.00%"
           },
           "widgetId": "widget_28",
           "setting": {
@@ -308,7 +308,7 @@
           "bbox": {
             "left": "5.00%",
             "right": "0.0%",
-            "top": "17.0%",
+            "top": "15.00%",
             "bottom": "22.2%",
             "width": "95.00%",
             "height": "70.00%"
@@ -367,8 +367,8 @@
             "right": "78.4%",
             "top": "0.0%",
             "bottom": "0.0%",
-            "width": "21.6%",
-            "height": "100.0%"
+            "width": "21.6146%",
+            "height": "100.0000%"
           },
           "widgetId": "widget_36",
           "setting": {
@@ -519,10 +519,10 @@
         "0": {
           "type": "WIDGET",
           "bbox": {
-            "left": "0px",
+            "left": "7.00%",
             "right": "32.2%",
             "top": "713px",
-            "bottom": "2.0%",
+            "bottom": "2.00%",
             "width": "150px",
             "height": "40px"
           },
@@ -545,7 +545,7 @@
             "left": "55px",
             "right": "57.1%",
             "top": "674px",
-            "bottom": "7.0%",
+            "bottom": "7.00%",
             "width": "40px",
             "height": "40px"
           },
@@ -560,17 +560,17 @@
             "vCenter": false,
             "hCenter": false
           },
-          "isPending": false
+          "isPending": true
         },
         "3": {
           "type": "WIDGET",
           "bbox": {
             "left": "10.00%",
             "right": "49.5%",
-            "top": "10.00px",
+            "top": "1.00%",
             "bottom": "88.1%",
-            "width": "100.00px",
-            "height": "110.00px"
+            "width": "80.00%",
+            "height": "7.00%"
           },
           "widgetId": "widget_40",
           "setting": {
@@ -591,7 +591,7 @@
           "bbox": {
             "left": "5.00%",
             "right": "-0.2%",
-            "top": "17.0%",
+            "top": "15.00%",
             "bottom": "9.4%",
             "width": "95.00%",
             "height": "70.00%"
@@ -608,13 +608,37 @@
             "hCenter": false
           },
           "isPending": false
+        },
+        "5": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "7.00%",
+            "right": "32.2%",
+            "top": "673px",
+            "bottom": "7.00%",
+            "width": "150px",
+            "height": "40px"
+          },
+          "widgetId": "widget_45",
+          "setting": {
+            "autoProps": {
+              "right": true,
+              "left": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
         }
       },
       "order": [
         "0",
         "1",
         "3",
-        "4"
+        "4",
+        "5"
       ]
     },
     "layout_62": {
@@ -668,6 +692,7 @@
       "label": "Title",
       "config": {
         "text": "<p style=\"line-height: 2;\"><strong style=\"font-size: 20px; color: var(--dark);\">Offshore Wind Power Area &amp; Power Transmisson Line</strong></p>",
+        "placeholder": "<p><span style=\"font-size: 24px; color: rgb(255, 255, 255);\">タイトル</span></p>",
         "style": {
           "verticalAlign": "center",
           "wrap": true,
@@ -978,16 +1003,16 @@
           },
           "scale": "Fit",
           "imageParam": {
-            "url": "${appResourceUrl}/images/widget_28/1666056774673.png",
-            "originalUrl": "${appResourceUrl}/images/widget_28/1666056774673.png",
-            "fileName": "1666056774673.png",
-            "originalName": "logoEN.png",
+            "url": "${appResourceUrl}/images/widget_40/1666173244764.png",
+            "originalUrl": "${appResourceUrl}/images/widget_40/1666173244764.png",
+            "fileName": "1666173244764.png",
+            "originalName": "logo_new.png",
             "imgSourceType": "BY_UPLOAD",
             "fileFormat": "image/png",
-            "originalId": "1666056774673",
+            "originalId": "1666173244764",
             "isUseCompress": false,
-            "originalWidth": 101,
-            "originalHeight": 140,
+            "originalWidth": 305,
+            "originalHeight": 70,
             "cropParam": {
               "svgViewBox": "0 0 16 16",
               "svgPath": "M0 0h16v16H0V0Z",
@@ -1186,6 +1211,7 @@
       "label": "Title 2",
       "config": {
         "text": "<p style=\"line-height: 2;\"><strong style=\"font-size: 20px; color: var(--dark);\">洋上風力発電開発エリア ＆ 送電線マップ﻿</strong></p>",
+        "placeholder": "<p><span style=\"font-size: 24px; color: rgb(255, 255, 255);\">タイトル</span></p>",
         "style": {
           "verticalAlign": "center",
           "wrap": true,
@@ -1451,7 +1477,7 @@
       "label": "Manual Download 2",
       "config": {
         "functionConfig": {
-          "text": "マニュアル(PDF)",
+          "text": "操作マニュアル(PDF)",
           "textExpression": null
         },
         "styleConfig": {
@@ -1566,16 +1592,16 @@
           },
           "scale": "Fit",
           "imageParam": {
-            "url": "${appResourceUrl}/images/widget_28/1659085083335.png",
-            "originalUrl": "${appResourceUrl}/images/widget_28/1659085083335.png",
-            "fileName": "1659085083335.png",
-            "originalName": "logo.png",
+            "url": "${appResourceUrl}/images/widget_40/1666173244764.png",
+            "originalUrl": "${appResourceUrl}/images/widget_40/1666173244764.png",
+            "fileName": "1666173244764.png",
+            "originalName": "logo_new.png",
             "imgSourceType": "BY_UPLOAD",
             "fileFormat": "image/png",
-            "originalId": "1659085083335",
+            "originalId": "1666173244764",
             "isUseCompress": false,
-            "originalWidth": 101,
-            "originalHeight": 141,
+            "originalWidth": 305,
+            "originalHeight": 70,
             "cropParam": {
               "svgViewBox": "0 0 16 16",
               "svgPath": "M0 0h16v16H0V0Z",
@@ -1678,6 +1704,80 @@
       "useMapWidgetIds": [
         "widget_41"
       ]
+    },
+    "widget_45": {
+      "uri": "widgets/common/button/",
+      "version": "1.9.0",
+      "label": "Manual Download 3",
+      "config": {
+        "functionConfig": {
+          "text": "開発状況一覧(CSV)",
+          "textExpression": null
+        },
+        "styleConfig": {
+          "useCustom": true,
+          "customStyle": {
+            "regular": {
+              "background": {
+                "color": "transparent",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "transparent",
+                "width": "1px"
+              },
+              "text": {
+                "color": "#767676",
+                "size": "12px",
+                "bold": true,
+                "underline": true
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "color": "#3481a1",
+                "size": 14
+              }
+            },
+            "hover": {
+              "background": {
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "width": "0px"
+              },
+              "text": {
+                "color": "#2a6983",
+                "size": "12px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "color": "#2a6983",
+                "size": 14
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_45",
+      "useDataSources": []
     }
   },
   "exbVersion": "1.9.0",
@@ -1736,7 +1836,7 @@
       "page_1": []
     }
   ],
-  "timestamp": 1666025316655,
+  "timestamp": 1666141794954,
   "header": {
     "layout": {
       "LARGE": "layout_15"
@@ -1746,13 +1846,7 @@
     }
   },
   "attributes": {
-    "portalUrl": "https://renewable-ei.maps.arcgis.com",
-    "isWebTier": false,
-    "clientId": "",
-    "title": "Offshore Wind Power Area & Power Transmission Line",
-    "description": "",
-    "type": "Web Experience",
-    "thumbnail": "thumbnail/thumbnail1662360457077.png"
+    "portalUrl": "https://renewable-ei.maps.arcgis.com"
   },
   "sharedThemeVariables": {
     "header": {
@@ -1788,15 +1882,5 @@
       "fontFamilyBase": "Arial"
     }
   },
-  "originExbVersion": "1.9.0",
-  "historyLabels": {
-    "pages": {
-      "home": [
-        "English"
-      ],
-      "page_1": [
-        "Japanese"
-      ]
-    }
-  }
+  "originExbVersion": "1.9.0"
 }
