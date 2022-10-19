@@ -1,1 +1,0 @@
-export default{_widgetLabel:"CheckBox",btnName1:"Show All",btnName2:"Hide All",usage2:"20 - 50",usage3:"50 - 100",usage4:"100 - 150",usage5:"150 - 200",usage6:"Commissioned",usage7:"In development",usage8:"Before open-call",usage9:"Development zone",usage10:"500 kV",usage11:"220-275 kV",usage12:"110-187 kV",usage13:"33-77 kV",usage14:"Substation"};
