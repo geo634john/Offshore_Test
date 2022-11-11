@@ -284,11 +284,11 @@
         "3": {
           "type": "WIDGET",
           "bbox": {
-            "left": "7.00%",
+            "left": "7.00px",
             "right": "10.2%",
             "top": "700px",
-            "bottom": "2.00%",
-            "width": "150.00px",
+            "bottom": "3.00%",
+            "width": "185.00px",
             "height": "40.00px"
           },
           "widgetId": "widget_30",
@@ -309,10 +309,10 @@
           "bbox": {
             "left": "5.00%",
             "right": "0.0%",
-            "top": "15.00%",
+            "top": "12.00%",
             "bottom": "22.2%",
             "width": "95.00%",
-            "height": "70.00%"
+            "height": "75.00%"
           },
           "widgetId": "widget_43",
           "setting": {
@@ -330,7 +330,7 @@
         "5": {
           "type": "WIDGET",
           "bbox": {
-            "left": "7.00%",
+            "left": "15.00px",
             "right": "10.2%",
             "top": "700px",
             "bottom": "7%",
@@ -387,12 +387,12 @@
         "1": {
           "type": "WIDGET",
           "bbox": {
-            "left": "-0.0%",
+            "left": "0.0%",
             "right": "78.4%",
             "top": "0.0%",
             "bottom": "0.0%",
-            "width": "21.6146%",
-            "height": "100.0000%"
+            "width": "21.6%",
+            "height": "100.0%"
           },
           "widgetId": "widget_36",
           "setting": {
@@ -543,11 +543,11 @@
         "0": {
           "type": "WIDGET",
           "bbox": {
-            "left": "7.00%",
+            "left": "16.00px",
             "right": "32.2%",
             "top": "713px",
-            "bottom": "2.00%",
-            "width": "150px",
+            "bottom": "3.00%",
+            "width": "150.00px",
             "height": "40px"
           },
           "widgetId": "widget_37",
@@ -613,18 +613,18 @@
         "4": {
           "type": "WIDGET",
           "bbox": {
-            "left": "5.00%",
-            "right": "-0.2%",
-            "top": "15.00%",
-            "bottom": "9.4%",
-            "width": "95.00%",
-            "height": "70.00%"
+            "left": "5.0%",
+            "right": "-0.0%",
+            "top": "12.00%",
+            "bottom": "13.8%",
+            "width": "95.0%",
+            "height": "75.00%"
           },
           "widgetId": "widget_44",
           "setting": {
             "autoProps": {
-              "right": true,
-              "left": false,
+              "right": false,
+              "left": true,
               "top": false,
               "bottom": true
             },
@@ -636,12 +636,12 @@
         "5": {
           "type": "WIDGET",
           "bbox": {
-            "left": "7.00%",
-            "right": "32.2%",
+            "left": "15.00px",
+            "right": "50.00%",
             "top": "673px",
             "bottom": "7.00%",
-            "width": "150px",
-            "height": "40px"
+            "width": "150.00px",
+            "height": "40.00px"
           },
           "widgetId": "widget_45",
           "setting": {
@@ -1078,7 +1078,7 @@
           "offsetY": "0px",
           "blur": "1.5px",
           "spread": "1.5px",
-          "color": "var(--secondary-200)"
+          "color": "rgba(0,0,0,0)"
         }
       },
       "useDataSources": []
@@ -1122,7 +1122,17 @@
       "config": {
         "functionConfig": {
           "text": "Instruction Manual(PDF)",
-          "textExpression": null
+          "textExpression": null,
+          "linkParam": {
+            "linkType": "WEB_ADDRESS",
+            "openType": "_blank",
+            "value": "https://www.renewable-ei.org/statistics/offshoremap/OSWmanualEN.pdf",
+            "expression": null
+          },
+          "icon": {
+            "data": "${appResourceUrl}/images/icon_picker_in_setting/1667555845771.gif",
+            "position": "LEFT"
+          }
         },
         "styleConfig": {
           "useCustom": true,
@@ -1233,7 +1243,7 @@
       "version": "1.9.0",
       "label": "Title 2",
       "config": {
-        "text": "<p style=\"line-height: 2;\"><strong style=\"font-size: 20px; color: var(--dark);\">洋上風力発電開発エリア ＆ 送電線マップ﻿</strong></p>",
+        "text": "<p style=\"line-height: 2;\"><strong style=\"color: var(--dark); font-size: 20px;\">洋上風力発電開発エリア ＆ 送電線マップ（β版）﻿</strong></p>",
         "style": {
           "verticalAlign": "center",
           "wrap": true,
@@ -1500,7 +1510,17 @@
       "config": {
         "functionConfig": {
           "text": "操作マニュアル(PDF)",
-          "textExpression": null
+          "textExpression": null,
+          "linkParam": {
+            "linkType": "WEB_ADDRESS",
+            "openType": "_blank",
+            "value": "https://www.renewable-ei.org/statistics/offshoremap/OSWmanualJP.pdf",
+            "expression": null
+          },
+          "icon": {
+            "data": "${appResourceUrl}/images/icon_picker_in_setting/1667555845771.gif",
+            "position": "LEFT"
+          }
         },
         "styleConfig": {
           "useCustom": true,
@@ -1666,7 +1686,7 @@
           "offsetY": "0px",
           "blur": "1.5px",
           "spread": "1.5px",
-          "color": "var(--secondary-200)"
+          "color": "rgba(0,0,0,0)"
         }
       },
       "useDataSources": []
@@ -1733,8 +1753,18 @@
       "label": "Manual Download 3",
       "config": {
         "functionConfig": {
-          "text": "開発状況一覧(CSV)",
-          "textExpression": null
+          "text": "開発状況一覧(Excel)",
+          "textExpression": null,
+          "linkParam": {
+            "linkType": "WEB_ADDRESS",
+            "openType": "_blank",
+            "value": "https://www.renewable-ei.org/statistics/offshoremap/OSWdataJP.csv",
+            "expression": null
+          },
+          "icon": {
+            "data": "${appResourceUrl}/images/icon_picker_in_setting/1667555634275.png",
+            "position": "LEFT"
+          }
         },
         "styleConfig": {
           "useCustom": true,
@@ -1742,7 +1772,7 @@
             "regular": {
               "background": {
                 "color": "transparent",
-                "fillType": "fill"
+                "fillType": "fit"
               },
               "border": {
                 "type": "solid",
@@ -1807,8 +1837,18 @@
       "label": "CSV Download 4",
       "config": {
         "functionConfig": {
-          "text": "Project Status(CSV)",
-          "textExpression": null
+          "text": "Project Status(Excel)",
+          "textExpression": null,
+          "linkParam": {
+            "linkType": "WEB_ADDRESS",
+            "openType": "_blank",
+            "value": "https://www.renewable-ei.org/statistics/offshoremap/OSWdataEN.csv",
+            "expression": null
+          },
+          "icon": {
+            "data": "${appResourceUrl}/images/icon_picker_in_setting/1667555634275.png",
+            "position": "LEFT"
+          }
         },
         "styleConfig": {
           "useCustom": true,
@@ -1932,7 +1972,7 @@
       "page_1": []
     }
   ],
-  "timestamp": 1666144849510,
+  "timestamp": 1668097524074,
   "header": {
     "layout": {
       "LARGE": "layout_15"
