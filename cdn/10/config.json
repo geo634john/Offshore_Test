@@ -2021,7 +2021,7 @@
       }
     },
     "typography": {
-      "fontFamilyBase": "Arial"
+      "fontFamilyBase": "NotoSansJP"
     }
   },
   "originExbVersion": "1.9.0",
